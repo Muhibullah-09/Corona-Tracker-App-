@@ -1,4 +1,3 @@
-# This is a basic workflow to help you get started with Actions
 name: Deploy Website
 
 on: [push]
@@ -27,4 +26,4 @@ jobs:
       run: npm install --global surge 
      
     - name: Deploy to surge
-      run: surge ./build CoronaTrackerByKamali.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build coronatrackerbymuhibullahkamali.surge.sh --token ${{secrets.CORONA_TRACKER}}
