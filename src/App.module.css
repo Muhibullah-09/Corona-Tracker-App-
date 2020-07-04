@@ -22,3 +22,8 @@ body {
         width: 100%;
     }
 }
+.logo{
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

@@ -16,7 +16,7 @@ const Cards = ({ data : { confirmed , recovered , deaths , lastUpdate } }) =>{
                         <Typography color="textSecondary" gutterBotton>Infected</Typography>
                         <Typography variant='h5'><CountUp start={0} end={confirmed.value} duration={1.5} separator=','/></Typography>
                         <Typography color='textSecondary'>{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant='body2'>Number of active cases of COVID-19</Typography>
+                        <Typography variant='body2'>Number Of Active Cases Of COVID-19</Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component = {Card} xs={12} md={3} className={cx(styles.card , styles.recovered)}>
@@ -24,7 +24,7 @@ const Cards = ({ data : { confirmed , recovered , deaths , lastUpdate } }) =>{
                         <Typography color="textSecondary" gutterBotton>Recovered</Typography>
                         <Typography variant='h5'><CountUp start={0} end={recovered.value} duration={1.5} separator=','/></Typography>
                         <Typography color='textSecondary'>{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant='body2'>Number of recovered cases from COVID-19</Typography>
+                        <Typography variant='body2'>Number Of Recovered Cases from COVID-19</Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component = {Card} xs={12} md={3} className={cx(styles.card , styles.deaths)}>
@@ -32,7 +32,7 @@ const Cards = ({ data : { confirmed , recovered , deaths , lastUpdate } }) =>{
                         <Typography color="textSecondary" gutterBotton>Deaths</Typography>
                         <Typography variant='h5'><CountUp start={0} end={deaths.value} duration={1.5} separator=','/></Typography>
                         <Typography color='textSecondary'>{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant='body2'>Number of deaths due to COVID-19</Typography>
+                        <Typography variant='body2'>Number Of Deaths Due To COVID-19</Typography>
                     </CardContent>
                 </Grid>
             </Grid>  
