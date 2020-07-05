@@ -26,7 +26,7 @@ class App extends React.Component {
         const { data , country } = this.state;
         return(
             <div className={styles.container}>
-                <h3 className={styles.logo}>Muhibullah Khan Kamali</h3>
+                <h3 className={styles.logo}><a href='https://github.com/Muhibullah-09/Corona-Tracker-App-' target = '_blank'>Muhibullah Khan Kamali</a></h3>
                 <img className={styles.image} src={coronaLogo} alt='COVID-19'/>
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
                 <Cards data={data} />
