@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,6 +13,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@wellyshen/use-web-animations": "^0.5.1",
     "axios": "^0.19.2",
+    "bootstrap": "^5.0.0-alpha1",
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
     "google-maps-react": "^2.0.6",
