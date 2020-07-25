@@ -6,7 +6,7 @@ import CountryPicker from './components/CountryPicker/CountryPicker'
 import styles from './App.module.css'
 import { fetchData } from './api/index'
 import coronaLogo from './images/covid.gif';
-import Footer from './components/Footer'
+import Footer from './components/Footer/Footer'
 class App extends React.Component {
     //Data Ko Cards component ma use krny k liye usko as prop pass krrha hn
     state = {
